@@ -1,0 +1,65 @@
+* {box-sizing: border-box; margin: 0;}
+
+body{background-color: #F2F2F2;}
+
+nav{position: fixed;
+	top: 0px; left: 0px, right: 0px; 
+	width: 100%; height: 4em; 
+	background-color: #606060;
+	display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+	}
+	
+div{
+	position: relative;
+	top: 0px; left: 0px, right: 0px; 
+	width: 100%; height: 4em; 
+	background-color: #606060;
+	display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+ul{
+	font-family: "Verdana","sans-serif","Arial Narrow";
+	font-size: 1em;
+	font-weight: lighter;
+	text-align: center;
+	color: #fff;
+	background-color:transparent;
+	position: relative;
+	top: 0px; left: 0px, right: 0px; 
+	width: 50%; height: 4em; 
+	margin: 0;
+	display: flex;
+    justify-content:space-around; 
+    display: flex;
+    align-items: center;
+}
+
+figure a img{ width: 10em; height: auto; 
+	background-color:transparent;
+}
+
+li{
+	display: inline;
+	background-color:transparent;
+	margin: 0 auto;
+}
+
+article{overflow: hidden; width: 100%; height: 1500px; background-color: #F7F7F7; 
+	padding: 5px; }
+
+section{width: 50%; height: 700px; background-image: url("img/avatar.jpeg"); 
+background-repeat: no-repeat; background-size: cover; float: left; opacity: 0.4;}
+
+
+p{font-size: 4em; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+color: white; text-align: center;}
+
+section[class=warhol-red]
