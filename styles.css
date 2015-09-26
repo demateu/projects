@@ -128,10 +128,7 @@ body{
         display: inline-block;
         margin-right: 1.8em;
         margin-bottom: 1.8em;
-    }
-
-    .Work-imageContainer{
-
+        width: 40%;
     }
 
     .Work-image{
