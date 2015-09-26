@@ -2,33 +2,104 @@
 <html lang="es">
 	<head>
 		<title>Mònica Mateu CV</title>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
 		<meta name="author" content="Mònica Mateu"/>
-		<meta name="description" content="CV interactivo"/>
-		<meta name="keywords" content="CV, currículum vitae, Mònica Mateu, diseño"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="portfolio by Monica Mateu Bonastre"/>
+		<meta name="viewport" content="device-width, minimum-scale=1.0, maximum-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" type="text/css" href="styles.css"/>
 	</head>
-	<body>
-		<nav>
-			<ul>
-				<figure>
-					<a href="#"><img src="img/mmateu.png" alt="logo"></a><!--poner link a la home-->
-				</figure>
-			  	<li><a href="#">Link one</a></li>
-			  	<li><a href="#">Link two</a></li>
-			  	<li><a href="#">Link 3</a></li>
-			  	<li><a href="#">Link 4</a></li>
-			</ul>
-	<!--posar un buscador-->
-		</nav>
-		<div></div> 
-		<article class="home" >
-			<a href="grafic.html"><section><p>Graphic works</p></section><a>
-			<a href="fashion.html"><section><p>Fashion works</p></section><a>
-			<a href="biography.html"><section><p>Biography</p></section><a>
-			<a href="logo.html"><section><p>Email me</p></section><a>
-		</article>
-		<footer></footer>
-	</body>
+
+    <body>
+        <header id="yo" class="Header">
+            <nav class="MainMenu">
+                <ul class="MainMenu-list">
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#yo">Yo</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#perfil">Perfil</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#trabajo">Trabajo</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <figure class="Header-imageContainer">
+                <img src="img/avatar.jpeg" alt="Imagen personal" class="Header-image"/>
+                <figcaption class="Header-imageDescription">
+                    <a class="Header-link" href="https://twitter.com/DeMateu" target="_black">@deMateu</a>
+                </figcaption>
+            </figure>
+            <p class="Header-name" >Mònica Mateu</p>
+        </header>
+        <section id="perfil" class="Profile">
+            <div class="u-containerDefault">
+                <h2 class="Profile-title u-title">Poner logo aquí<!--poner logo aqui--></h2>
+                <p class="Profile-description">
+                    <strong>Hola!</strong> si <span class="Profile-span">llegaste</span> hasta aqui puedes ver mi portafolio y <em>contactarme</em>
+                </p>
+                <a class="Profile-link" href="http://twitter.com/leonidasesteban/" target="_blank">@deMateu</a>
+                <a class="Profile-link" href="http://facebook.com/leonidasesteban/" target="_blank">Mònica Mateu</a>
+                <a class="Profile-link" href="http://github.com/leonidasesteban/" target="_blank">LeonidasEsteban</a>
+            </div>
+        </section>
+        <section id="trabajo" class="Work">
+            <div class="u-containerDefault">
+                <h2 class="Work-title u-title">Mi trabajo</h2>
+            </div>
+            
+            <article class="Work-item">
+                <figure class="Work-imageContainer">
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
+                    <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                </figure>
+            </article>
+            <article class="Work-item">
+                <figure class="Work-imageContainer">
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
+                    <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                </figure>
+            </article>
+            <article class="Work-item">
+                <figure class="Work-imageContainer">
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
+                    <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                </figure>
+            </article>
+            <article class="Work-item">
+                <figure class="Work-imageContainer">
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
+                    <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                </figure>
+            </article>
+            <article class="Work-item">
+                <figure class="Work-imageContainer">
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
+                    <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                </figure>
+            </article>
+            <article class="Work-item">
+                <figure class="Work-imageContainer">
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Es la descripcion de mi imagen">
+                    <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                </figure>
+            </article>
+        </section>
+        <footer id="contacto" class="Footer">
+            <div class="Footer-left">
+                <h3 class="Footer-title">Contacto</h3>
+                <p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
+            </div>
+            <form class="Footer-form">
+                <input class="Footer-formInput"  type="text" placeholder="Nombre"/>
+                <input class="Footer-formInput" type="email" placeholder="Email"/>
+                <textarea class="Footer-textarea" placeholder="Motivo"></textarea>
+                <button type="submit" class="Footer-button"> Contactarme </button>
+            </form>
+        </footer>
+    </body>
 </html>
