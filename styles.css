@@ -7,8 +7,7 @@ body{
     font-size: 100%;
     color: #666;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .u-title{
@@ -21,8 +20,8 @@ body{
 }
 
 .u-containerDefault{
-    width: 1024px;
-
+    width: 100%;
+    border-bottom: dotted 1px black;
 }
 
 
@@ -104,6 +103,7 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .Profile-link{
@@ -120,14 +120,16 @@ body{
 /* Work */
 
 .Work{
-
     text-align: center;
+    width: 100%;
+    margin top: 10px;
 }
 
     .Work article{
         display: inline-block;
-
-        width: 40%;
+        width: 25rem;
+        height: 25rem;
+        background-image: url('ejemplo1.png');
     }
 
     .Work-image{
@@ -140,11 +142,6 @@ body{
 
     }
 
-    .Work-description{
-        font-size: 1.1em;
-        color: #515151;
-        font-style: italic;
-    }
 
 
 
