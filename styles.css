@@ -119,30 +119,32 @@ body{
 
 /* Work */
 
-.Work{
+.skills{
     text-align: center;
     width: 100%;
     margin top: 10px;
 }
 
-    .Work article{
+    .skills article{
         display: inline-block;
         width: 25rem;
         height: 25rem;
-        background-image: url('ejemplo1.png');
+ 
+        margin: 10px;
     }
-
-    .Work-image{
-        width: 30rem;
-        height: 30rem;
+    
+    .skills__fashionDesign{
         background-color: grey;
     }
-    .Work-container{
-        display: flex;
-
+    .skills__illustration{
+        background-color: black;
     }
-
-
+    .skills__graphicDesign{
+        background-color: blue;
+    }
+    .skills__Frontend{
+        background-color: aqua;
+    }
 
 
 /* Footer */
