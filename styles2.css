@@ -336,7 +336,8 @@ body{
     height: 25rem;
     background-image: url("background/woman/chaquetas.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 /* Work_Men */
