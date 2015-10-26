@@ -66,6 +66,7 @@ body{
     background-size: contain;
     text-align: center;
     padding: 1.2em 0;
+    margin-bottom: 100px;
 }
 
 .Header-image{
@@ -133,18 +134,17 @@ body{
         margin: 10px;
     }
     
-    .skills__fashionDesign{
-        background-color: grey;
+	.skills__illustration{
+        background-color: white;
+        border: solid 10px black;
+        width: 600px;
+        height: 50rem;
+        text-align: center;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 100px;
+     
     }
-    .skills__illustration{
-        background-color: black;
-    }
-    .skills__graphicDesign{
-        background-color: blue;
-    }
-    .skills__Frontend{
-        background-color: aqua;
-    }
+
 
 /* Work_Background */
 
@@ -418,6 +418,7 @@ body{
     background-image: url("background/garments/vestidocirco.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 50% 50%;
 }
 .vestidocorazones{
     width: 25rem;
@@ -425,6 +426,7 @@ body{
     background-image: url("background/garments/vestidocorazones.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 50% 50%;
 }
 .camisageo{
     width: 25rem;
@@ -432,6 +434,7 @@ body{
     background-image: url("background/garments/camisageo.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 50% 50%;
 }
 .camisaminiflor{
     width: 25rem;
@@ -439,6 +442,7 @@ body{
     background-image: url("background/garments/camisaminiflor.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 50% 50%;
 }
 .alim{
     width: 25rem;
@@ -446,6 +450,7 @@ body{
     background-image: url("background/garments/denimflor.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 50% 50%;
 }
 .top{
     width: 25rem;
@@ -453,6 +458,7 @@ body{
     background-image: url("background/garments/top.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 50% 50%;
 }
 .vestidovoile{
     width: 25rem;
@@ -460,6 +466,7 @@ body{
     background-image: url("background/garments/vestidovoile.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 50% 50%;
 }
 .denim{
     width: 25rem;
@@ -467,6 +474,7 @@ body{
     background-image: url("background/garments/denim.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 50% 50%;
 }
 
 
