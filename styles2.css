@@ -415,35 +415,35 @@ body{
 .vestidocirco{
     width: 25rem;
     height: 25rem;
-    background-image: url("background/garments/vestido circo.jpg");
+    background-image: url("background/garments/vestidocirco.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 .vestidoCORAZONES{
     width: 25rem;
     height: 25rem;
-    background-image: url("background/garments/vestido CORAZONES.jpg");
+    background-image: url("background/garments/vestidocorazones.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 .camisageo{
     width: 25rem;
     height: 25rem;
-    background-image: url("background/garments/camisa GEOMETRICO.jpg");
+    background-image: url("background/garments/camisageo.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
-.camisaMINIFLOR{
+.camisaminiflor{
     width: 25rem;
     height: 25rem;
-    background-image: url("background/garments/camisa MINIFLOR.jpg");
+    background-image: url("background/garments/camisaminiflor.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
-.ALIM6699{
+.alim{
     width: 25rem;
     height: 25rem;
-    background-image: url("background/garments/ALIM6699.jpg");
+    background-image: url("background/garments/denimflor.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -454,10 +454,10 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
 }
-.vestidoVOILE{
+.vestidovoile{
     width: 25rem;
     height: 25rem;
-    background-image: url("background/garments/vestidoVOILE.jpg");
+    background-image: url("background/garments/vestidovoile.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
