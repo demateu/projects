@@ -50,7 +50,10 @@ body{
         color: black;
         text-decoration: none;
         line-height: 3.75em;
-        margin-right: 1.5em;
+        margin: 1.5em;
+    }
+    .MainMenu-list li:hover{
+        background-color: #f2f2f2;
     }
 
 
@@ -82,6 +85,10 @@ body{
     font-weight: bold;
     text-decoration: none;
 }
+    .Header-link:hover{
+        opacity: 0.9;
+        color: black;
+    }
 
 .Header-name{
     font-size: 1.5em;
@@ -109,6 +116,7 @@ body{
     .Profile p{
         font-size: 4em;
         color: #4E0000;
+        border-bottom: solid 2px #4E0000;
     }
 .Profile-link{
     background: orange;
@@ -139,16 +147,28 @@ body{
     .skills__fashionDesign{
         background-color: grey;
     }
+    .skills__fashionDesign:hover{
+        opacity: 0.5;
+    }
     .skills__illustration{
         background-color: black;
+    }
+    .skills__illustration:hover{
+        opacity: 0.5;
     }
     .skills__graphicDesign{
         background-color: blue;
     }
+    .skills__graphicDesign:hover{
+        opacity: 0.5;
+    }
     .skills__Frontend{
         background-color: aqua;
     }
-
+    .skills__Frontend:hover{
+        opacity: 0.5;
+    }
+    
 
 /* Footer */
 
@@ -200,6 +220,9 @@ body{
         .Footer-button a{
             text-decoration: none;
             color: white;
+        }
+        .Footer-button a:hover{
+            opacity: 0.5;
         }
 
     
