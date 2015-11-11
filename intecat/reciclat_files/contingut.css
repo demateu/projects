@@ -1,0 +1,1206 @@
+/*
+
+	Full d'estils CONTINGUT del web:
+	INTECAT iStore - intecat.cat-
+	
+	fet per: ramonforns.cat
+	
+*/
+
+
+.destacat_sorteig_ipod {
+	color:#ff5a00;
+	font-size:80%;
+	float:right;
+}
+
+
+
+	/*	Contingut general */
+
+
+	.capsa_banner {
+		background-color: #FFF;
+
+		padding: 0; 
+
+
+		margin-bottom:10px;
+		border: 1px solid #c2c2c2; 
+		
+		/*	cantonades rodones  */
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-khtml-border-radius: 5px;
+		
+		/*	ombra  */
+		box-shadow: 2px 2px 2px #CCC;
+		-moz-box-shadow: 2px 2px 2px #CCC;
+		-webkit-box-shadow: 2px 2px 2px #CCC;
+	}
+	
+
+
+
+	#contingut {
+		background-color: #FFF;
+
+		padding: 0 0 50px; 
+
+
+		margin-bottom:10px;
+		border: 1px solid #c2c2c2; 
+		
+		/*	cantonades rodones  */
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-khtml-border-radius: 5px;
+		
+		/*	ombra  */
+		box-shadow: 2px 2px 2px #CCC;
+		-moz-box-shadow: 2px 2px 2px #CCC;
+		-webkit-box-shadow: 2px 2px 2px #CCC;
+	}
+	
+	#contingut.portada{
+		padding-bottom:0px;
+	}
+	
+		#contentmessage {
+			padding-top: 20px;
+		}
+	
+
+		#contingut .bloc { 
+			margin-top:10px; 
+			overflow:auto;
+		}
+
+		#contingut .bloc.lina_sota {
+			border-bottom: 1px solid #dddddd;
+		}
+		#contingut .bloc.lina_sobre {
+			border-top: 1px solid #dddddd;
+		}
+		
+.botigues_index {
+	color: #333333;
+	font-size: 70%;
+	float: right;
+}
+		
+
+			.bloc h2 { 
+				margin-bottom:10px; 
+				padding-left:20px; 
+/*				color:#999999; 
+				font-size:20px;*/
+			}
+
+
+			.bloc h3 { 
+				margin:20px 0px; 
+				padding-left:20px; 
+
+			}
+
+			.bloc h4 { 
+				
+				font-size:1em;
+				font-weight:normal;
+				padding-left:20px; 
+
+			}
+
+
+			.bloc small {
+				color:#555;
+				font-size:10px;
+				margin-bottom: 10px;
+			}
+
+		
+		#contingut .bloc.inicial { 
+			margin-top:25px;
+		}
+		#contingut .bloc.final { 
+			margin-bottom:25px;
+		}		
+		#contingut .bloc.sense_vertical { 
+			margin-top:0px; 
+			margin-bottom:0px; 
+		}
+		
+		
+		#contingut .bloc.vertical-portada {
+			margin-top:3px;
+			margin-bottom:0px;
+		}
+
+			p.padding { 
+				padding-left:20px; 
+			}
+		
+		.rounded-corners
+		{
+			border-radius: 5px;
+			-ms-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-khtml-border-radius: 5px;
+		}
+		
+		
+		.rounded-top-corners 
+		{
+			/*	Cantonades rodones  */
+			border-radius:5px 5px 0px 0px;
+			-ms-border-radius: 5px 5px 0px 0px;
+			-moz-border-radius: 5px 5px 0px 0px;
+			-khtml-border-radius: 5px 5px 0px 0px;
+			-webkit-border-radius: 5px 5px 0px 0px;
+		}
+		
+		
+		
+		.anotacio_inferior {
+			margin-top: 20px;
+			padding-left: 20px;
+			color:#aaa;
+			font-size: 11px;
+		}
+		
+		
+		
+		.titol_seccio {
+			margin: 0px 0px 0px 20px;
+			font-size: 0.9em;
+			color:#888;
+		}
+		
+			.titol_seccio img {
+				float:right;
+			}
+			.titol_seccio h1 {
+				font-size:32px; 
+				color:#666; 
+				font-weight:bold; 
+	
+				margin-bottom: 15px; 
+				padding:0px;
+			}
+			
+			.titol_seccio h2 {
+				margin-bottom:20px; 
+				padding:0px; 
+				color:#AAA; 
+				font-size:20px;
+				line-height: 1.2em;
+				font-weight:normal;
+			}
+			
+			.titol_seccio .destacat {
+				font-size: 1em;
+				color:#363532;
+				font-weight:normal;
+			}
+		
+		.llista_botigues {
+			margin: 10px 0px;
+			padding: 0px 10px;
+		}
+		
+		
+			.llista_botigues img {
+				margin-bottom: 5px;
+			}
+
+			.llista_botigues h4, .llista_botigues p, .llista_botigues a {
+				padding-left: 0px; padding-right:0px;
+			}
+		
+			.llista_botigues h4 a { color:#777; }
+		
+		
+		
+		
+	ul.checkmark {
+		list-style-type:none;	
+		padding-left: 0px;
+	}	
+		ul.checkmark li {
+			line-height: 30px;
+			padding-left: 30px;	
+			background: transparent url('../imatges/checkmark.gif') no-repeat left top;
+			margin: 5px auto; 
+		}
+		
+		
+		
+	/*	Fi contingut general */
+
+
+
+	/*	Portada  */
+
+		.llista_botigues a { font-weight:bold; text-decoration:none; }
+		.llista_botigues a:hover { text-decoration:underline; }	
+
+	/*	Fi portada  */
+	
+	
+	/*	Botigues   */
+	
+
+	
+	
+	#TopContentRemark {
+		
+		background-color: #FFF; 
+		border-bottom: 1px solid transparent; 
+		
+		min-height: 367px; 		
+		height: auto !important; 
+		height: 367px; 
+		
+		overflow: visible; 
+		position: relative;
+
+
+		/*	Cantonades rodones  */
+		border-radius:5px 5px 0px 0px;
+		-ms-border-radius: 5px 5px 0px 0px;
+		-moz-border-radius: 5px 5px 0px 0px;
+		-khtml-border-radius: 5px 5px 0px 0px;
+		-webkit-border-radius: 5px 5px 0px 0px;
+	
+	}
+
+
+		#main_image_bkg {
+		
+			border:none; 
+			z-index:0; 
+			overflow:hidden;
+			
+			
+			/*	Cantonades rodones  */
+			border-radius:5px 5px 0px 0px;
+			-ms-border-radius: 5px 5px 0px 0px;
+			-moz-border-radius: 5px 5px 0px 0px;
+			-khtml-border-radius: 5px 5px 0px 0px;
+			-webkit-border-radius: 5px 5px 0px 0px;
+		}
+		
+		.main_image_Cortina {
+			position:absolute; 
+			top:0px; 
+			right:0px; 
+			z-index:1; 
+			background-color:#FFF; 
+			width:35%; 
+			height:100%; 
+			
+			
+			/*	transparència  */
+			filter:alpha(opacity=80);
+			-moz-opacity:0.8;
+			-khtml-opacity: 0.8;
+			opacity: 0.8;
+			
+			/*	Cantonades rodones  */
+			border-radius:5px 5px 0px 0px;
+			-ms-border-radius: 5px 5px 0px 0px;
+			-moz-border-radius: 5px 5px 0px 0px;
+			-khtml-border-radius: 5px 5px 0px 0px;
+			-webkit-border-radius: 5px 5px 0px 0px;
+		}
+		
+			.main_image_Cortina h2 {
+				position:absolute; 
+				bottom:20%; 
+				right:20%; 
+				max-width:70%; 
+				z-index:10; 
+				opacity: 1; 
+				font-size:26px; 
+				font-weight: 900;
+			}
+	
+		#TopContentRemark div ul li{font-size: 18px; margin-left:20px; line-height: 140%;}	
+
+
+		/***** contentmessage *****/
+	
+	
+		.botigues {
+			padding-top: 20px;
+		}
+		
+		 .botigues .column p  {padding: 0 40px 45px 40px;}
+		 .botigues .column h2, .botigues .column h3, .botigues .column h4  {padding: 0 40px 5px 40px; font-weight:normal; font-size: 1em;}	 
+		 .botigues .column.last p  {padding: 0 40px 45px 40px;}
+		 .botigues .column.last h2, .botigues .column.last h3, .botigues .column.last h4  {padding: 0 40px 5px 40px;}
+
+		 .botigues .grid3col .column p{padding: 0 0 40px 30px;}
+		 .botigues .grid3col .column h2, .botigues .grid3col .column h3 {padding: 0 0 5px 30px;}
+		 
+
+	
+		.mini_seminaris {
+			padding: 0px 40px 45px;
+		}
+		
+			.mini_seminari {
+				color:#888888;
+				font-size:11px;
+				padding-top:10px;
+				border-top: 1px solid #dddddd;
+				margin-top: 10px;
+				
+			}
+			
+				.mini_seminari .titol {
+					display:block;
+					font-weight:bold;
+					font-size:18px;
+					color:#999;
+				}
+						
+				.mini_seminari .data {
+					font-size:14px;
+					color:#888;
+				}
+		
+
+
+	
+	/*	Fi botigues  */ 
+
+
+	/*  Educacio  */
+
+		.educacio .titol_seccio {
+			margin:0px;
+		}
+
+		.educacio .titol_seccio .caixa {
+			margin-top: 50px;
+			width: 400px;
+			margin-right:10px;
+			float:right;
+		}
+		.educacio .titol_seccio img {
+			margin-top: 35px;
+			float:none;
+		}
+		
+		.educacio .column h2 {
+			font-size: 1em;
+		}
+		
+		#descomptes {
+		}
+		
+			#descomptes_padding {
+				background-color:#fafafa;
+				border: 1px solid #eee;
+				
+				color:#6F6F6F;
+				
+				margin: 0px 20px 0px 10px;
+				/*	Cantonades rodones  */
+				border-radius:5px 5px 0px 0px;
+				-ms-border-radius: 5px 5px 0px 0px;
+				-moz-border-radius: 5px 5px 0px 0px;
+				-khtml-border-radius: 5px 5px 0px 0px;
+				-webkit-border-radius: 5px 5px 0px 0px;
+				
+			}
+				#descomptes p {
+					font-size: 0.7em;
+				}
+			
+				#descomptes .cap {
+					text-align:center;
+					padding:15px 10px;
+					font-size:1.1em;
+				}
+				#descomptes .cap p { font-size: 0.9em; }
+				#descomptes .cap h2 { font-weight:bold; }
+
+				#descomptes .cos {
+					background-color: #eee;
+					padding: 15px 10px;
+				}
+		
+			.llista_petita {
+				font-size: 0.7em;
+				
+			}
+				.llista_petita li {
+					margin-bottom: 10px;
+				}
+				
+				
+				
+				
+		.universitat .titol_seccio {
+			margin:0px;
+			border-bottom: 1px solid #dddddd;
+			
+			
+		}
+			.universitat .titol_seccio h1 {
+				color:#3a75bd;
+				
+			}
+			.universitat .titol_seccio .caixa {
+				width: 600px;
+				margin: 20px auto 0px;
+				text-align:center;
+			}
+			.universitat .titol_seccio img {
+				margin:0px;
+				float:none;
+			}
+			
+			.universitat .titol_seccio span {
+				
+				display:block;
+				
+				margin: 20px 40px 0px;
+				
+				padding: 10px 5px;
+				
+				font-weight:bold;
+				font-size:0.9em;
+				text-align:center;
+				
+				border-top: 1px solid #6f6f6f;
+				border-bottom: 1px solid #6f6f6f;
+			}
+		
+		.universitat .taula_informacio {
+			font-size: 0.7em; color: #6f6f6f; line-height: 170%;
+		}
+		
+		.universitat h3 {
+			font-size: 1.3em;
+			margin:0px;
+			padding:0px;
+		}
+		
+		.universitat .footer {
+			font-size:10px;
+			line-height:12px;
+			padding-bottom:4px;
+			color:#777777;
+		}
+		.universitat .footer a {
+			text-decoration:underline;
+			color:#888888;	
+		}
+		
+		
+		
+		
+		
+	/*	Fi educació  */
+
+
+	/*	Butlletí electrònic */
+
+		.butlleti{}
+
+	/*	Fi butlletí electrònic */
+
+	/*  Suport remot  */
+
+
+		.suport_remot .titol_seccio .caixa {
+			margin-top: 35px;
+			width: 350px;
+			margin-right:10px;
+			float:right;
+		}
+		.suport_remot .titol_seccio img {
+			float:none;
+		}
+		
+	/*	Fi suport remot  */
+
+
+
+
+	/*	Contactar  */
+	
+	
+		.contactar .titol_seccio span {
+			width: 450px;
+			display:block;
+		}
+		.contactar .titol_seccio img {
+			margin-right: 150px;
+		}
+		
+		.contactar h4 {
+			font-size: 1em;
+		}
+		
+
+
+
+
+				
+	/*	Fi Contactar  */ 
+
+
+	/*	Seminaris */
+
+		.seminaris .titol_seccio span {
+			width: 550px;
+			display:block;
+		}
+/*
+		.seminaris .titol_seccio img {
+			margin-right: 100px;
+		}
+*/
+
+
+
+	.llista_seminaris {
+		margin: 10px 20px;
+	}
+
+
+		.llista_seminaris .seminari {
+			clear:both;
+			padding: 10px 0px;
+			border-bottom: 1px solid #dddddd;
+			margin-bottom: 10px;
+			color:#888888;
+			font-size:11px;
+		}
+
+	
+			.llista_seminaris .seminari .imatge {
+				display:block;
+				float:left;
+				width: 170px;
+				text-align:center;
+			}
+			
+			.llista_seminaris .seminari .dades {
+				position:relative;
+				display:block;
+				float:right;
+				width: 700px;
+			}
+				
+				.llista_seminaris .seminari h2 {
+					font-weight:bold;
+					font-size:22px;
+					color:#666666;
+					margin-bottom: 10px;
+					padding-left:0px;
+				}
+				
+				.llista_seminaris .seminari .data {
+					font-size:18px;
+					color:#888888;
+				}
+				
+				.llista_seminaris .seminari .botiga {
+					float:right;
+					color:#bbbbbb;
+					font-weight:bold;
+					font-size:22px;
+					text-transform: uppercase;
+				}
+				
+				
+				.llista_seminaris .seminari .inscriures {
+					display:block;
+					text-align:right;
+					position:absolute;
+					right: 0px;
+					bottom: 0px;
+					line-height: 20px;
+				}
+					
+					.llista_seminaris .seminari .inscriures .casella {
+						border: 1px solid #e5e5e5;
+						height: 20px;
+						margin: 0px 5px;
+					}
+									
+				
+				
+				.capsa_ok {
+					clear:both;
+					margin: 10px;
+
+					border: 1px solid #6db33f;
+					color: #6db33f;
+					
+					font-size: 110%;
+					
+					text-align:center;
+					padding: 15px; 
+
+					/*	cantonades rodones  */
+					border-radius: 5px;
+					-moz-border-radius: 5px;
+					-ms-border-radius: 5px;
+					-webkit-border-radius: 5px;
+					-khtml-border-radius: 5px;
+				}
+				
+				.llista_seminaris .capsa_ok {
+					float:right;
+					width: 670px; 
+					margin: 10px 0px;
+				}
+				
+				
+				.capsa_error {
+					clear:both;
+					margin: 10px;
+					background-color: #fef9f9;
+					border: 1px solid #e3cfcf;
+					color: #990000;
+					font-size: 110%;
+					
+					text-align:center;
+					padding: 15px; 
+
+					/*	cantonades rodones  */
+					border-radius: 5px;
+					-moz-border-radius: 5px;
+					-ms-border-radius: 5px;
+					-webkit-border-radius: 5px;
+					-khtml-border-radius: 5px;
+				}
+				
+				.llista_seminaris .capsa_error {
+					float:right;
+					width: 670px; 
+					margin: 10px 0px;					
+				}
+					
+				
+
+				.capsa_alerta {
+					clear:both;
+					margin: 10px;
+					background-color: #fffcf6;
+					border: 1px solid #ffa60a;
+					color: #444444;
+					
+					text-align:center;
+					padding: 15px; 
+
+					/*	cantonades rodones  */
+					border-radius: 5px;
+					-moz-border-radius: 5px;
+					-ms-border-radius: 5px;
+					-webkit-border-radius: 5px;
+					-khtml-border-radius: 5px;
+				}
+				
+				
+				
+	.recomana_seminari {
+		margin: 20px 0px;
+		color:#888888;
+		text-align:center;
+		font-size:0.9em;
+	}
+		
+		
+	/*	Fi Seminaris */
+		
+	
+	/*  Aplicacions  */
+
+	.aplicacions h3 {
+		padding:0px;
+		margin:0px;
+	}
+
+	.aplicacions h2.subr {
+		border-bottom: 1px solid #dddddd;
+	}
+
+	/*	Fi Aplicacions */
+
+	/*	Cursos */
+
+		.cursos .titol_seccio span {
+			width: 350px;
+			display:block;
+		}
+		.cursos .titol_seccio img {
+			margin-right: 10px;
+		}
+
+
+
+	.llista_cursos {
+		margin: 10px 20px;
+	}
+
+
+		.llista_cursos .curs {
+			clear:both;
+			padding: 10px 0px;
+			border-bottom: 1px solid #dddddd;
+			margin-bottom: 10px;
+			color:#888888;
+			font-size:11px;
+		}
+
+	
+			.llista_cursos .curs .imatge {
+				display:block;
+				float:left;
+				width: 220px;
+				text-align:center;
+			}
+			
+			.llista_cursos .curs .dades {
+				position:relative;
+				display:block;
+				float:right;
+				width: 660px;
+			}
+				
+				.llista_cursos .curs h2 {
+					font-weight:bold;
+					font-size:22px;
+					color:#666666;
+					margin-bottom: 10px;
+					padding-left:0px;
+				}
+				
+				.llista_cursos .curs .data {
+					font-size:18px;
+					color:#888888;
+				}
+				
+				.llista_cursos .curs .botiga {
+					float:right;
+					color:#bbbbbb;
+					font-weight:bold;
+					font-size:22px;
+					text-transform: uppercase;
+				}
+				
+				
+				.llista_cursos .curs .inscriures {
+					display:block;
+					text-align:right;
+					position:absolute;
+					right: 0px;
+					bottom: 0px;
+					line-height: 20px;
+				}
+					
+					.llista_cursos .curs .inscriures .casella {
+						border: 1px solid #e5e5e5;
+						height: 20px;
+						margin: 0px 5px;
+					}
+									
+				
+				
+				.llista_cursos .capsa_ok {
+					float:right;
+					width: 670px; 
+					margin: 10px 0px;
+				}
+				
+
+				
+				.llista_cursos .capsa_error {
+					float:right;
+					width: 670px; 
+					margin: 10px 0px;					
+				}
+					
+			
+				
+				
+				
+		
+	/*	Fi Cursos */
+
+
+
+	/*	Empreses   */ 
+	
+		.empreses .titol_seccio h1 {
+			padding: 50px 0px 0px 35px;
+		}
+
+
+		.empreses .titol_seccio h2 {
+			padding: 40px 0px 0px 35px;
+		}
+		
+		
+		.empreses .titol_seccio img {
+			margin-right: 50px;
+		}
+
+
+		/* h1: style="position:absolute; top:58px; left:35px; z-index:1; font-size:32px; color:#666; font-weight:bold; width:500px; margin:0px; padding:0px;" */
+		/* h2:  style="position:absolute; top:200px; left:35px; z-index:1;  width:500px; margin:0px; padding:0px; color:#CCC; font-size:20px;" */
+		/* img:  style="position:absolute; bottom:0px; right:50px; z-index:0"  */
+
+
+	/*	Fi empreses   */ 
+
+	/*	Trobada d'empreses   */ 
+	
+		.trobada_empreses .titol_seccio h1 {
+			padding: 50px 0px 0px 35px;
+		}
+
+
+		.trobada_empreses .titol_seccio h2 {
+			padding: 30px 0px 0px 35px;
+		}
+		
+		
+		.trobada_empreses .titol_seccio img {
+			margin-right: 50px;
+			margin-top: 70px;
+		}
+
+
+		.trobada_empreses .capsa_info {
+			border:1px solid #aaa;
+		/*	cantonades rodones  */
+		
+		border-radius: 15px;
+		-moz-border-radius: 15px;
+		-ms-border-radius: 15px;
+		-webkit-border-radius: 15px;
+		-khtml-border-radius: 15px;	
+			
+			color:#333333;
+			font-size: 110%;
+		}
+			.trobada_empreses .padding {
+				
+			}
+
+
+
+
+		/* h1: style="position:absolute; top:58px; left:35px; z-index:1; font-size:32px; color:#666; font-weight:bold; width:500px; margin:0px; padding:0px;" */
+		/* h2:  style="position:absolute; top:200px; left:35px; z-index:1;  width:500px; margin:0px; padding:0px; color:#CCC; font-size:20px;" */
+		/* img:  style="position:absolute; bottom:0px; right:50px; z-index:0"  */
+
+
+	/*	Fi trobada d'empreses   */ 
+
+
+
+	/*	CODI QR   */ 
+	
+		.codi-qr .titol_seccio h1 {
+			padding: 40px 0px 0px 30px;
+		}
+
+
+		.codi-qr .titol_seccio h2 {
+			padding: 10px 0px 0px 35px;
+		}
+		
+		
+		.codi-qr .titol_seccio img {
+			margin-top: 40px;
+			margin-right: 50px;
+		}
+
+
+		/* h1: style="position:absolute; top:58px; left:35px; z-index:1; font-size:32px; color:#666; font-weight:bold; width:500px; margin:0px; padding:0px;" */
+		/* h2:  style="position:absolute; top:200px; left:35px; z-index:1;  width:500px; margin:0px; padding:0px; color:#CCC; font-size:20px;" */
+		/* img:  style="position:absolute; bottom:0px; right:50px; z-index:0"  */
+
+
+	/*	Fi CODI QR   */ 
+
+
+
+
+
+
+	
+	/*	Formularis 	*/	
+	
+	
+	.formulari {
+		margin: 10px 20px 0px;
+	}
+	
+	.formulari fieldset {
+	
+
+		
+		padding: 15px;
+		
+		padding-bottom: 15px;
+		margin-bottom: 10px;
+	
+		border: 1px solid #dddddd;	
+		/*	cantonades rodones  */
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-khtml-border-radius: 5px;	
+		
+	}
+		.formulari fieldset legend {
+			font-size: 18px;	
+			color:#888;
+		}
+	
+
+		.formulari label {
+			font-size:12px;
+			display: block;
+			margin: 10px 0px 7px 0px;
+			cursor:pointer;
+			color:#888;
+		}
+
+		
+		.formulari label.neta { /* per als radio, checkbox etc */
+			display: inline;
+			margin: 0px;
+		
+		}
+
+		.formulari .boto {
+			margin-top: 10px;
+			font-size: 14px;
+			background-color:#333333;
+			color:#ffffff;
+			font-weight:bold;
+			padding: 5px 10px;
+			cursor:pointer;
+			border: 1px solid #333333;
+			/*	cantonades rodones  */
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-khtml-border-radius: 5px;	
+		}
+		
+		
+		.formulari .boto_petit {
+			margin-top: 10px;
+			font-size: 11px;
+			
+			background-color:#666666;
+			color:#ffffff;
+			font-weight:normal;
+			padding: 3px 5px;
+			cursor:pointer;
+			border: 1px solid #666666;
+			
+			/*	cantonades rodones  */
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-khtml-border-radius: 5px;	
+		}
+	
+		.formulari input[type=text], .formulari input[type=password], .formulari textarea  {
+			background-color:#fafafa;
+			width:100%;
+			padding: 3px;
+			border: 1px solid #bbb;
+			/*	cantonades rodones  */
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-khtml-border-radius: 5px;	
+		}
+
+		
+		.formulari div.requerit label , strong.requerit {
+			font-size:16px;
+			color:#666;
+		}
+		.formulari div.requerit input {
+			border-color: #888;
+		}
+
+
+		.formulari div.error label {
+			color: #900;
+		}
+		.formulari div.error input, .formulari div.error textarea {
+			border-color: #900;
+		}
+		.formulari div.error .text-error {
+			color: #700;
+			font-style: italic;
+			font-size: 10px;
+			margin: 4px 0px 10px;
+		}
+
+
+
+		
+		.formulari small {
+			display: block;
+			color: #666;
+			margin-bottom: 5px;
+			font-size: 10px;
+		}
+		
+		.formulari .advertiment {
+			display: block;
+			color: #666;
+			margin: 10px 20px;
+			font-size: 10px;
+			text-align:center;		
+		}
+
+
+		
+/* fi formularis */			
+		
+/*	Barres de filtre */
+		
+	.barra_filtre {
+		display:none;
+		
+		background-color:#eeeeee;
+		padding: 4px 10px;
+
+		overflow: auto;
+		
+		font-size:12px;
+		line-height: 18px;
+					
+		margin: 0px 0px 10px 20px;
+		border: 1px solid #eeeeee; 
+		
+		
+		
+		
+		
+		/*	cantonades esquerra rodones  */
+		
+-webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+		
+		
+		
+		color:#555555;
+		
+	}
+	
+		.barra_filtre .text {
+
+			display:block;
+			float:left;
+			padding: 5px 10px;
+			
+		}
+	
+		.barra_filtre .opcio {
+			color:#555555;
+			text-decoration:none;
+			font-weight:normal;
+			cursor:pointer;
+		
+			display:block;
+			float:left;
+			padding: 5px 10px;
+			margin-right:10px;
+			
+			background-color:#eeeeee;
+			border: 1px solid #eeeeee; 			
+			/*	cantonades rodones  */
+			border-radius: 10px;
+			-moz-border-radius: 10px;
+			-ms-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			-khtml-border-radius: 10px;
+			
+		}
+
+		.barra_filtre .opcio:hover {
+			color:#777777;
+			background-color:#dddddd;	
+			border: 1px solid #dddddd; 
+		}
+		
+		.barra_filtre .opcio.actiu {
+			color:#555555;
+			background-color:#cccccc;	
+			border: 1px solid #cccccc; 
+		}
+
+	/* Fi barres de filtre */
+
+
+
+
+
+
+	/* slider botigues */
+	
+		ul#slider_botigues{
+		 margin: 0;
+		 padding: 0;
+		 list-style: none;
+		 position: relative;
+		 background-color:#fafafa;
+		 
+		}
+		ul#slider_botigues li{
+			 display: block;
+			 overflow: hidden;
+			 padding: 0;
+			 float: left;
+			 width: 157px;
+			 height: 250px;
+			 border-left:1px solid #bbb;
+			 
+		}
+			
+			
+			ul#slider_botigues li span{
+				display: block;
+				color:#666;
+				padding:5px;
+				font-size:90%; 
+			}
+			
+			ul#slider_botigues li.primer {
+				width: 158px;
+			}
+			
+	/* fi slider botigues */
